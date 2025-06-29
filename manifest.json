@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Last Tab",
   "version": "1.0",
-  "description": "Quickly switch to your last used tab with a keyboard shortcut (Default: CMD/CTRL + Period)",
-  "permissions": ["tabs"],
+  "description": "Quickly switch to your last used tab with a keyboard shortcut (Default: CMD/CTRL + Period)\n[chrome://extensions/shortcuts]",
+  "permissions": ["tabs", "storage"],
   "background": {
     "service_worker": "background.js"
   },

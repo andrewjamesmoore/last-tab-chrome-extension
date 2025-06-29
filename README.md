@@ -2,6 +2,8 @@
 
 A minimal Chrome extension that lets you switch to your **last used tab** using a customizable keyboard shortcut. Like `Cmd+Tab` for your browser tabs.
 
+![Last Tab Screenshot](webstore-assets/last-tab-screenshot.png)
+
 ## Features
 
 - Switch to the most recently used tab

@@ -3,14 +3,10 @@ body {
     Arial, sans-serif;
   font-size: 14px;
   margin: 0;
+  padding: 16px;
   background-color: #f9f9f9;
   color: #333;
   min-width: 280px;
-}
-
-.container {
-  padding: 16px;
-  text-align: left;
 }
 
 h4 {
@@ -25,7 +21,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 16px 0;
+  padding: 24px 0;
 }
 
 .key {
@@ -40,32 +36,27 @@ p {
 }
 
 .os {
-  color: #666;
+  color: #888888;
   font-size: 12px;
   margin-left: 8px;
 }
 
 .note {
   font-size: 11px;
-  color: #af9cb5;
-  border-top: 1px solid #eee;
-  margin-top: 16px;
+  color: #888888;
   padding-top: 12px;
-  text-align: center;
+  border-top: 1px solid #eee;
 }
 
-#switch-btn {
-  width: 100%;
-  padding: 8px;
-  margin-top: 8px;
-  background-color: #5d12ff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.2s;
+.features {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0;
+  font-size: 13px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
 }
 
-#switch-btn:hover {
-  background-color: #400ab6;
+.features li {
+  margin-bottom: 8px;
 }
